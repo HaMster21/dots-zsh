@@ -1,3 +1,6 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
 ###
 # Find a reference for options at http://zsh.sourceforge.net/Doc/Release/Options.html
 ###
