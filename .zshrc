@@ -24,6 +24,7 @@ setopt warn_create_global
 
 ### History
 setopt hist_ignore_all_dups
+setopt hist_ignore_dups
 setopt hist_ignore_space
 setopt hist_lex_words
 setopt hist_no_functions
@@ -47,7 +48,5 @@ setopt pipe_fail
 ### Zle
 setopt no_beep
 
-zmodload -i zsh/complist
-zstyle ':completion:*' list_colors ${(s.:.)LS_COLORS}
-
-zle -N newtab
+source $HOME/.zsh/alias.zsh
+source $HOME/.zsh/prompt.zsh
