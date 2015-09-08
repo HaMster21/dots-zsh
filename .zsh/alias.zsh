@@ -2,5 +2,6 @@ alias ll='ls -Ahl --color=auto --group-directories-first'
 
 alias v='nvim'
 
-alias gc='git commit'
-alias gp='git push'
+alias git='hub'
+alias gc='hub commit'
+alias gp='hub push'
