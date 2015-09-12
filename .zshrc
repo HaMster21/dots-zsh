@@ -50,6 +50,5 @@ setopt no_beep
 
 source $HOME/.zsh/alias.zsh
 source $HOME/.zsh/prompt.zsh
-source $HOME/.zsh/env.zsh
 
 autoload mx
