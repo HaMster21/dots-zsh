@@ -1,4 +1,5 @@
 FPATH=$FPATH:/home/hamster/.zsh/functions
-PROJECTS=~/Code
-GOPATH=~/Code/go
+export PROJECTS=~/Code
+export GOPATH=~/Code/go
+export PATH=$PATH:$GOPATH/bin
 
